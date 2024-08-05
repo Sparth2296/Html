@@ -1,0 +1,107 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    width: auto;
+    height: 100vh;
+    background-color:rgb(90 97 113);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    width: 250px;
+    height: 350px;
+    background:rgb(255, 228, 228);
+    margin: 0 auto;
+    border-radius: 10px;
+    transform: translateY(50px);
+    box-shadow: 11px 14px 20px 0px black;
+    border: 5px double rgb(104, 104, 104);
+   
+    
+}
+.image > img{
+    padding: 0%;
+    width: auto;
+    height: 170px;
+    padding-left: 40px;
+    margin: 0 auto;
+    transform: translateY(-50px);
+    
+    
+}
+.image_2 > img{
+    padding: 0%;
+    width: 95%;
+    height: 165px;
+    margin: 0 auto;
+    overflow: hidden;    
+    padding-left: 5px;
+    padding-top: 5px;
+    
+    
+}
+.image_3 > img{
+    padding: 0%;
+    width: 95%;
+    height: 165px;
+    margin: 0 auto;
+    overflow: hidden;    
+    padding-left: 5px;
+    padding-top: 5px;
+    
+    
+}
+.card > h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+span {
+   font-size: 0.5rem;
+   line-height: 0.7px;
+   text-align: justify;
+   padding-left: 10px;
+   font-weight: 500;
+   margin-bottom:  30px;
+   
+   
+}
+.card > h5{
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 300;
+
+}
+.card > button{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background: #ffffff;
+    color: rgb(247, 0, 0);
+    margin-left: 10px;
+    border: 2px outset;
+    box-shadow: 3px 3px 4px 0px black;
+
+    
+}
+body > a > button{
+    padding: 3px 7px;
+    border-radius: 10px;
+    background-color:rgb(90 97 113);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
